@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 require_relative 'day2'
 
-class TestDay2 < MiniTest::Unit::TestCase
+class TestDay2 < MiniTest::Test
   def setup
     @day2 = Day2.new('day2.test')
   end
